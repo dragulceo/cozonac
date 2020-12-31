@@ -145,6 +145,8 @@ L_action_coca_adauga_lapte_zahar: box rad 10px "se adaugă laptele cu zahărul" 
 arrow down 20px from L_action_coca_adauga_lapte_zahar .s
 L_action_coca_adauga_zahar_vanilinat: box rad 10px "se adaugă zahărul vanilinat" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_zahar_vanilinat .s
+L_action_coca_adauga_sare: box rad 10px "se adaugă sarea" fill lightgreen fit 
+arrow down 20px from L_action_coca_adauga_sare .s
 L_action_coca_adauga_rom: box rad 10px "se adaugă 2 esențe de rom" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_rom .s
 L_action_coca_amestec: box rad 10px "se amestecă" "să curpindă toată făina" fill lightgreen fit 
@@ -231,5 +233,4 @@ L_action_coacere_faza3: box rad 10px "cuptor deschis" "10 minute" fill orange fi
 arrow down 20px from L_action_coacere_faza3 .s
 L_action_coacere_faza4: box rad 10px "acoperire prosop" "gata" fit
 # arrow down 20px from L_action_coacere_faza4 .s
-
 
