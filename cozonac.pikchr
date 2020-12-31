@@ -1,0 +1,235 @@
+L_start: box "2 Cozonaci pufoși cu nucă" fit
+arrow right
+# arrow down 80px then right from L_start .s
+L_title_ingr: box "Toate ingredientele" fit
+arrow down then right 80px from L_title_ingr .s
+
+## INGREDIENTE COCA
+L_title_coca: box "Cocă" fit
+line down 10px from last box.s
+L_ingr_faina_total: box rad 10px "făină 1000g (+200g)" fill 0xFFC107 fit
+line right from L_ingr_faina_total .e
+box "într-un vas mare" "diametru 40 cm" fill 0xFFC107 fit
+line down 20px from 2nd last box .s
+box rad 10px "lapte 500g [+40g pentru nucă]" fill lightblue fit
+line right 10px from last box .e
+box "într-un ibric" "pentru a fi încălzit" fill lightblue fit
+line down 20px from 2nd last box .s
+box rad 10px "lapte 4 linguri" fill 0x07ff14 fit
+line right 10px from last box .e
+box "într-un vas conic" "diametru 10 cm (ibric)" fill 0x07ff14 fit
+line down 20px from 2nd last box .s
+box rad 10px "drojdie proaspătă 75g" fit
+line down 10px
+L_ingr_unt: box rad 10px "unt 200g" fill lightgray fit
+line right 10px from last box .e
+box "într-un bol metalic" "pentru topire" fill lightgray fit
+line down 20px from L_ingr_unt .s
+L_ingr_zahar: box rad 10px "zahar 250g" fit
+line down 60px from L_ingr_zahar .s
+              
+L_ingr_oua: box rad 10px "ouă 6 buc" fit
+arrow up 20px then right from L_ingr_oua .e
+L_ingr_oua_5galbenusuri: box rad 10px "gălbenușuri 5 buc" fill aqua fit
+line right 10px from last box .e
+box "într-un bol" "pentru amestec" fill aqua fit
+arrow up 55px then right from L_ingr_oua .e
+box rad 10px "gălbenușuri 1 buc" fit
+arrow down 20px then right from L_ingr_oua .e
+L_ingr_oua_3albusuri: box rad 10px "albușuri 3 buc" fill darkkhaki fit
+line right 10px from last box .e
+box "într-un bol" "pentru bătut mixer" fill darkkhaki fit
+arrow down 60px then right from L_ingr_oua .e
+box rad 10px "albușuri 3 buc" fit
+line down 70px from L_ingr_oua .s
+
+L_ingr_rom: box rad 10px "esență de rom 2 fiole (20g)" fit
+line down 10px from L_ingr_rom .s
+L_ingr_coaja: box rad 10px "coajă rasă 1 lamâie" fit
+line down 10px from L_ingr_coaja .s
+L_ingr_vanil: box rad 10px "zahăr vanilinat 3 plicuri" fit
+line down 10px from L_ingr_vanil .s
+L_ingr_sare: box rad 10px "sare 1 linguriță" fit
+
+arrow down 570px then right 80px from L_title_ingr .s
+
+## INGREDIENTE CREMA
+L_title_crema: box "Cremă" fit
+line down 10px from L_title_crema .s
+L_ingr_nuca: box rad 10px "nucă macinată 250g" fill lightyellow fit
+line down 10px from L_ingr_nuca .s
+L_ingr_sare: box rad 10px "lapte 4 linguri" fill lightyellow fit
+line down 10px from L_ingr_sare .s
+L_ingr_zahar2: box rad 10px "zahăr 5 linguri" fill lightyellow fit
+line down 10px from L_ingr_zahar2 .s
+L_ingr_rom2: box rad 10px "esență de rom 1 fiolă (10g)" fill lightyellow fit
+line down 10px from L_ingr_rom2 .s
+L_ingr_rom2: box rad 10px "cacao 1 lingură" fill lightyellow fit
+
+## 12 ORE ÎNAINTE
+arrow right 390px from L_title_ingr .e
+L_title_12ore: box "12 ore înainte" fit
+arrow down 20px from L_title_12ore .s
+L_action_cernut: box rad 10px "cernut făină de 3 ori" "din vas într-o tavă și înapoi" fill 0xFFC107 fit
+arrow down 20px from L_action_cernut .s
+L_action_cernut: box rad 10px "ingrediente la temperatura camerei" "ouăle, laptele, zahăr, făină" "..." fit
+
+## INCEPUT
+
+arrow right 160px from L_title_12ore .e
+L_title_inceput: box "început" fit
+arrow down 20px from L_title_inceput .s
+
+# CREMA INCEPUT
+
+L_action_crema_preg: box rad 10px "separă 5 gălbenușuri" "într-un castron" fill aqua fit
+arrow down 20px from L_action_crema_preg .s
+L_action_crema_amestec1: box rad 10px "amestecare" fill aqua fit
+arrow down 20px from L_action_crema_amestec1 .s
+L_action_crema_coaja_lamaie: box rad 10px "răzătoare pentru coajă lămâie" fill aqua fit
+arrow down 20px from L_action_crema_coaja_lamaie .s
+L_action_crema_adauga_coaja_lamaie: box rad 10px "adaugă coajă lămâie" fill aqua fit
+arrow down 20px from L_action_crema_adauga_coaja_lamaie .s
+L_action_crema_amestec2: box rad 10px "amestecare" fill aqua fit
+arrow down 20px from L_action_crema_adauga_coaja_lamaie .s
+L_action_crema_amestec2: box rad 10px "amestecare" fit
+arrow down 20px from L_action_crema_amestec2 .s
+
+# MAIAUA
+
+L_title_maia: box "maia - în vasul celor 4 linguri de lapte" fill 0x07ff14 fit
+arrow down 20px from L_title_maia .s
+L_action_maia_preg_lapte_drojdie: box rad 10px "cele 4 linguri de lapte" "se încălzesc un pic" fill 0x07ff14 fit
+arrow down 20px from L_action_maia_preg_lapte_drojdie .s
+L_action_maia_unealta: box rad 10px "se ia o linguriță" fill 0x07ff14 fit
+arrow down 20px from L_action_maia_unealta .s
+L_action_maia_disolv_drojdie: box rad 10px "dizolvă drojdia în 4 linguri de lapte" fill 0x07ff14 fit
+arrow down 20px from L_action_maia_disolv_drojdie .s
+L_action_maia_adauga_faina: box rad 10px "adaugă 3 linguri făină amestecând" fill 0x07ff14 fit
+arrow down 20px from L_action_maia_adauga_faina .s
+L_action_maia_adauga_zahar: box rad 10px "adaugă 1 linguriță zahăr amestecând" fill 0x07ff14 fit
+arrow down 20px from L_action_maia_adauga_zahar .s
+L_action_maia_crestere: box rad 10px "se lăsă la crescut" fill 0x07ff14 fit
+arrow down 20px from L_action_maia_crestere .s
+L_action_maia_asteptare: box rad 10px "20 minute" fill 0x07ff14 fit
+
+arrow right 30px from L_action_maia_crestere .e
+
+# PAUZA
+L_action_maia_pauza: box rad 10px "se poate aștepta" "dacă este cazul" fill moccasin fit 
+arrow down 20px from L_action_maia_pauza .s
+
+# UNTUL
+
+L_action_coca_topit_unt: box rad 10px "se topește untul" fill lightgray fit 
+arrow down 20px from L_action_coca_topit_unt .s
+
+# LAPTE CU ZAHAR
+
+L_action_lapte_incalzit: box rad 10px "se încălzește puțin laptele"  fill lightblue fit 
+arrow down 20px from L_action_lapte_incalzit .s
+L_action_lapte_cu_zahar: box rad 10px "se disolvă zahărul în lapte"  fill lightblue fit 
+arrow down 20px from L_action_lapte_cu_zahar .s
+
+L_action_coca_preg: box rad 10px "se ia vasul cu făina" "pentru toată coca" fill lightgreen fit 
+arrow from L_action_maia_asteptare .s down until even with L_action_coca_preg then to L_action_coca_preg .w
+
+arrow down 20px from L_action_coca_preg .s
+L_action_coca_adauga_faina: box rad 10px "făina este deja în vas" fill lightgreen fit 
+arrow down 20px from L_action_coca_adauga_faina .s
+L_action_coca_adauga_maia: box rad 10px "se adaugă maiaua" fill lightgreen fit 
+arrow down 20px from L_action_coca_adauga_maia .s
+L_action_coca_adauga_galbenusuri: box rad 10px "se adaugă gălbenusurile" "cu coaja de lămâie" fill lightgreen fit 
+arrow down 20px from L_action_coca_adauga_galbenusuri .s
+L_action_coca_adauga_lapte_zahar: box rad 10px "se adaugă laptele cu zahărul" fill lightgreen fit 
+arrow down 20px from L_action_coca_adauga_lapte_zahar .s
+L_action_coca_adauga_zahar_vanilinat: box rad 10px "se adaugă zahărul vanilinat" fill lightgreen fit 
+arrow down 20px from L_action_coca_adauga_zahar_vanilinat .s
+L_action_coca_adauga_rom: box rad 10px "se adaugă 2 esențe de rom" fill lightgreen fit 
+arrow down 20px from L_action_coca_adauga_rom .s
+L_action_coca_amestec: box rad 10px "se amestecă" "să curpindă toată făina" fill lightgreen fit 
+arrow down 20px from L_action_coca_amestec .s
+L_action_coca_framantare: box rad 10px "se frământă 30 minute" "se adaugă câte o lingură de unt" fill lightgreen fit 
+arrow down 20px from L_action_coca_framantare .s
+L_action_coca_preg_dopire: box rad 10px "se presară un pic de făina deasupra" "se acoperă cu un prosop" fill lightgreen fit 
+arrow down 20px from L_action_coca_preg_dopire .s
+L_action_coca_dospire: box rad 10px "se dă la dospit" fill lightgreen fit
+arrow down 20px from L_action_coca_dospire .s
+L_action_coca_dospire_asteptare: box rad 10px "60 minute în loc cald" fill lightgreen fit 
+arrow right 60px from L_action_coca_dospire .e
+
+# PAUZA
+L_action_coca_pauza: box rad 10px "se poate aștepta" "dacă este cazul" fill moccasin fit 
+arrow down 20px from L_action_coca_pauza .s
+
+# CREMA NUCA
+
+L_action_crema_nuca: box rad 10px "nuca măcinată" "într-un castron mare 20cm" fill lightyellow fit
+arrow down 20px from L_action_crema_nuca .s
+L_action_crema_nuca_lapte: box rad 10px "adaugă lapte" "4 linguri" fill lightyellow fit 
+arrow down 20px from L_action_crema_nuca_lapte .s
+L_action_crema_nuca_zahar: box rad 10px "adaugă zahar" "5 linguri" fill lightyellow fit 
+arrow down 20px from L_action_crema_nuca_zahar .s
+L_action_crema_nuca_rom: box rad 10px "adaugă rom" "1 fiolă (10g)" fill lightyellow fit 
+arrow down 20px from L_action_crema_nuca_rom .s
+L_action_crema_nuca_cacao: box rad 10px "adaugă cacaoa" "1 lingură" fill lightyellow fit 
+arrow down 20px from L_action_crema_nuca_cacao .s
+
+
+L_action_crema_abusuri_preg: box rad 10px "se mixează 3 albușuri cu zahăr vanilinat" fill darkkhaki fit 
+arrow down 20px from L_action_crema_abusuri_preg .s
+
+L_action_crema_amestec_nuca: box rad 10px "se amestecă albușuri cu nuca" fill lightyellow fit 
+arrow down 20px from L_action_crema_amestec_nuca .s
+
+L_action_coacere_preg: box rad 10px "se ponește cuptorul" fill orange fit 
+arrow down 20px from L_action_coacere_preg .s
+L_action_coacere_preg_tavi: box rad 10px "se pregătesc 2 tăvi" "cu hârtie de copt" fill orange fit 
+arrow down 20px from L_action_coacere_preg_tavi .s
+L_action_impletire_preg_tava: box rad 10px "se aduc tăvile" "aproape de suprafață" fill orange fit 
+arrow down 20px from L_action_impletire_preg_tava .s
+L_action_impletire_preg: box rad 10px "se unge suprafața" "(mușama)" "unde se fac cozonacii" "cu puțin ulei" fill deepskyblue fit 
+arrow down 20px from L_action_impletire_preg .s
+
+
+L_action_impletire_separare1: box rad 10px "se îmarte coca în două" "jumătate pe suprafața de întins" "jumătate înapoi în vas" fit
+
+arrow from L_action_coca_dospire_asteptare .s down until even with L_action_impletire_separare1 then to L_action_impletire_separare1 .w
+
+arrow down 20px from L_action_impletire_separare1 .s
+
+L_action_impletire_separare2: box rad 10px "se îmarte din nou coca în două" "pe suprafața de întins" fill deepskyblue fit
+arrow down 20px from L_action_impletire_separare2 .s
+L_action_impletire_indindere: box rad 10px "se întinde coca dreptunghic" "cât mai mult" "5mm cu sticlă" fill deepskyblue fit
+arrow down 20px from L_action_impletire_indindere .s
+L_action_impletire_crema: box rad 10px "se întinde cremă peste cocă" "1/4 din cremă" fill deepskyblue fit
+arrow down 20px from L_action_impletire_crema .s
+L_action_impletire_sul: box rad 10px "se răsucește felia de cocă" "se obține un sul" fill deepskyblue fit
+arrow down 20px from L_action_impletire_sul .s
+L_action_impletire_sul2: box rad 10px "se face la fel" "cu cealaltă jumătate de cocă" fill deepskyblue fit
+arrow down 20px from L_action_impletire_sul2 .s
+L_action_impletire_rasucire: box rad 10px "se prind sulurile la un cap" "se încalecă una pe cealaltă" fill deepskyblue fit
+arrow down 20px from L_action_impletire_rasucire .s
+L_action_impletire_tava: box rad 10px "se pune în tavă" fill orange fit
+arrow down 20px from L_action_impletire_tava .s
+L_action_impletire_ungere: box rad 10px "se unge cu gălbenuș pe deasupra" fill orange fit
+arrow down 20px from L_action_impletire_ungere .s
+L_action_impletire_rest: box rad 10px "se repetă pentru cealată" "jumătate de cocă" fill deepskyblue fit
+
+arrow right 40px from L_action_impletire_rest .e up until even with L_action_impletire_separare2 then right to L_action_impletire_separare2 .e
+
+arrow down 20px from L_action_impletire_rest .s
+L_action_coacere_asezare: box rad 10px "se lasă 10 minute" "să se așeze" fill orange fit
+arrow down 20px from L_action_coacere_asezare .s
+L_action_coacere_introducere: box rad 10px "se bagă la cuptor" fill orange fit
+arrow down 20px from L_action_coacere_introducere .s
+L_action_coacere_faza1: box rad 10px "temperatură ridicată 180" "20 minute" fill orange fit
+arrow down 20px from L_action_coacere_faza1 .s
+L_action_coacere_faza2: box rad 10px "temperatură joasă 160" "40 minute" fill orange fit
+arrow down 20px from L_action_coacere_faza2 .s
+L_action_coacere_faza3: box rad 10px "cuptor deschis" "10 minute" fill orange fit
+arrow down 20px from L_action_coacere_faza3 .s
+L_action_coacere_faza4: box rad 10px "acoperire prosop" "gata" fit
+# arrow down 20px from L_action_coacere_faza4 .s
+
+
