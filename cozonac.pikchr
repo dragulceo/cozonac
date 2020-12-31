@@ -131,33 +131,33 @@ arrow down 20px from L_action_lapte_incalzit .s
 L_action_lapte_cu_zahar: box rad 10px "se disolvă zahărul în lapte"  fill lightblue fit 
 arrow down 20px from L_action_lapte_cu_zahar .s
 
-L_action_coca_preg: box rad 10px "se ia vasul cu făina" "pentru toată coca" fill 0xFFC107 fit 
+L_action_coca_preg: box rad 10px "se ia vasul cu făina" "pentru toată coca" fill lightgreen fit 
 arrow from L_action_maia_asteptare .s down until even with L_action_coca_preg then to L_action_coca_preg .w
 
 arrow down 20px from L_action_coca_preg .s
-L_action_coca_adauga_faina: box rad 10px "făina este deja în vas" fill 0xFFC107 fit 
+L_action_coca_adauga_faina: box rad 10px "făina este deja în vas" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_faina .s
-L_action_coca_adauga_maia: box rad 10px "se adaugă maiaua" fill 0xFFC107 fit 
+L_action_coca_adauga_maia: box rad 10px "se adaugă maiaua" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_maia .s
-L_action_coca_adauga_galbenusuri: box rad 10px "se adaugă gălbenusurile" "cu coaja de lămâie" fill 0xFFC107 fit 
+L_action_coca_adauga_galbenusuri: box rad 10px "se adaugă gălbenusurile" "cu coaja de lămâie" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_galbenusuri .s
-L_action_coca_adauga_lapte_zahar: box rad 10px "se adaugă laptele cu zahărul" fill 0xFFC107 fit 
+L_action_coca_adauga_lapte_zahar: box rad 10px "se adaugă laptele cu zahărul" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_lapte_zahar .s
-L_action_coca_adauga_zahar_vanilinat: box rad 10px "se adaugă zahărul vanilinat" fill 0xFFC107 fit 
+L_action_coca_adauga_zahar_vanilinat: box rad 10px "se adaugă zahărul vanilinat" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_zahar_vanilinat .s
-L_action_coca_adauga_sare: box rad 10px "se adaugă sarea" fill 0xFFC107 fit 
+L_action_coca_adauga_sare: box rad 10px "se adaugă sarea" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_sare .s
-L_action_coca_adauga_rom: box rad 10px "se adaugă 2 esențe de rom" fill 0xFFC107 fit 
+L_action_coca_adauga_rom: box rad 10px "se adaugă 2 esențe de rom" fill lightgreen fit 
 arrow down 20px from L_action_coca_adauga_rom .s
-L_action_coca_amestec: box rad 10px "se amestecă" "să curpindă toată făina" fill 0xFFC107 fit 
+L_action_coca_amestec: box rad 10px "se amestecă" "să curpindă toată făina" fill lightgreen fit 
 arrow down 20px from L_action_coca_amestec .s
-L_action_coca_framantare: box rad 10px "se frământă 30 minute" "se adaugă câte o lingură de unt" fill 0xFFC107 fit 
+L_action_coca_framantare: box rad 10px "se frământă 30 minute" "se adaugă câte o lingură de unt" fill lightgreen fit 
 arrow down 20px from L_action_coca_framantare .s
-L_action_coca_preg_dopire: box rad 10px "se presară un pic de făina deasupra" "se acoperă cu un prosop" fill 0xFFC107 fit 
+L_action_coca_preg_dopire: box rad 10px "se presară un pic de făina deasupra" "se acoperă cu un prosop" fill lightgreen fit 
 arrow down 20px from L_action_coca_preg_dopire .s
-L_action_coca_dospire: box rad 10px "se dă la dospit" fill 0xFFC107 fit
+L_action_coca_dospire: box rad 10px "se dă la dospit" fill lightgreen fit
 arrow down 20px from L_action_coca_dospire .s
-L_action_coca_dospire_asteptare: box rad 10px "60 minute în loc cald" fill 0xFFC107 fit 
+L_action_coca_dospire_asteptare: box rad 10px "60 minute în loc cald" fill lightgreen fit 
 arrow right 60px from L_action_coca_dospire .e
 
 # PAUZA
